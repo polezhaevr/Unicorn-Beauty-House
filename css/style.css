@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.main-header {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    background: url(../img/brush-art-watercolor-painting-oil-painting-png.png);
+    background-repeat: no-repeat;
+}
+
+.main-header__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 51px;
+    padding-left: 15px;
+}
+
+.main-header__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header__navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header__nav-wrapper {
+    display: flex;
+}
+
+.main-header__logo {
+    margin-top: 14px;
+    width: 130px;
+    height: 129.76px;
+}
+
+.main-header__text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0;
+}
+
+.main-header__text--left {
+    padding-left: 276px;
+}
+
+.main-header__link {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #000000;
+    padding-left: 35px;
+}
+
+.main-header__navigation-links {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 34.1px;
+    padding-left: 45px;
+}
+
+.main-header__navigation-links--right {
+    padding-left: 0px;
+}
+
+.main-header__navigation-links:hover {
+    color: #FE164A;
+}
+
+.main-header__button {
+    background: #77C1E5;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-top: 19px;
+    border: 1px solid #ffffff;
+    outline: none;
+}
+
+.main-header__button:hover {
+ background:  #FE164A; 
+ border: 1px solid #FE164A;
+}
