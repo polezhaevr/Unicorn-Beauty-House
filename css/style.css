@@ -6,6 +6,8 @@ body {
     font-family: sans-serif;
 }
 
+
+/* start header */
 .main-header {
     max-width: 1170px;
     margin: 0 auto;
@@ -109,6 +111,68 @@ body {
 }
 
 .main-header__button:hover {
- background:  #FE164A; 
- border: 1px solid #FE164A;
+    background: #FE164A;
+    border: 1px solid #FE164A;
 }
+
+/* end header */
+
+.main-index {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* start mask */
+
+.mask {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: url(../img/mask.jpg);
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+.mask__text-wrapper {
+    padding-top: 200px;
+    padding-right: 59px;
+}
+
+.mask__text {
+    font-family: 'Alex Brush', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: right;
+    color: #000000;
+    margin: 0px;
+    text-align: right;
+    padding-right: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.mask__title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 75px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin: 0px;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+}
+
+.mask__img {
+    position: relative;
+    left: 580px;
+    bottom: 165px;
+    z-index: 0;
+}
+/* end mask */
