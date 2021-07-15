@@ -115,6 +115,11 @@ body {
     border: 1px solid #FE164A;
 }
 
+.main-header__link {
+    margin: 0;
+    padding: 0;
+}
+
 /* end header */
 
 .main-index {
@@ -175,4 +180,30 @@ body {
     bottom: 165px;
     z-index: 0;
 }
+
 /* end mask */
+
+/*start services */
+
+.services {
+
+
+}
+
+.services__wrapper-text {
+   
+}
+
+.services__heading {
+    text-align: right;
+}
+
+.services__text {
+    text-align: right;
+    width:473px;
+}
+
+
+.services__img {
+    position: relative;
+}
