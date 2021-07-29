@@ -4,6 +4,7 @@
 
 body {
     font-family: sans-serif;
+    min-width: 1170px;
 }
 
 
@@ -185,25 +186,163 @@ body {
 
 /*start services */
 
+@font-face {
+    font-family: a_AvanteTitlerCpsUpC;
+    src: url(/fonts/ofont.ru_a_AvanteTitlerCpsUpC.ttf);
+}
+
 .services {
-
-
+    max-width: 1280px;
+    ;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .services__wrapper-text {
-   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: url(../img/brush-art-watercolor-gray.png);
+    background-repeat: no-repeat;
+    background-position: bottom -50px left;
+
 }
 
 .services__heading {
+    font-family: a_AvanteTitlerCpsUpC, arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: 0.05em;
+    color: #FE164A;
     text-align: right;
+    text-transform: uppercase;
+    margin-top: 86px;
+    margin-bottom: 0;
+    padding-right: 72px;
 }
 
 .services__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
     text-align: right;
-    width:473px;
+    width: 530px;
+    padding-right: 55px;
+    margin-top: 30px;
 }
 
+.services__all {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-left: 55px;
+    background: url(../img/IMGBIN_brush-art-watercolor-pink-bug.png);
+    background-repeat: no-repeat;
+    background-position: bottom -250px right;
 
-.services__img {
+}
+
+.services__card-wrapper {
+    width: 884px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__card:nth-child(2) {
+    margin-left: 30px;
+}
+
+.services__card:nth-child(4) {
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+.services__card:nth-child(3) {
+    margin-top: -15px;
+}
+
+.services__picture {
+    border-radius: 15px;
+}
+
+.services__card-wrapper-ver {
+    margin-left: 15px;
+}
+
+.services__card-link {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #000;
+    max-width: 265px;
+    padding-top: 10px;
+}
+
+.services__card-link:hover {
+    color: #FE164A;
+}
+
+.services__price-container {
     position: relative;
+    transition: 0.5s;
+    margin: 0;
+    bottom: 50%;
+    margin: 0;
+    color: #000;
 }
+
+.services__text-price {
+    opacity: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #000000;
+    transition: 1s;
+}
+
+.services__text-price:hover {
+    opacity: 1;
+    color: #000000;
+}
+
+.services__price {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.services__price:hover {
+    color: #FE164A;
+}
+
+
+
+
+
+
+/*end services*/
